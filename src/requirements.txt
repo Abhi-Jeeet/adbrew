@@ -1,0 +1,13 @@
+# Core Django
+Django==3.0.5
+asgiref==3.3.1
+sqlparse==0.2.4
+
+# Django REST Framework
+djangorestframework==3.12.2
+
+# CORS
+django-cors-headers==3.6.0
+
+# MongoDB driver (used directly in views.py via pymongo)
+pymongo==3.11.2

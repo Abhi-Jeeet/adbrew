@@ -1,0 +1,18 @@
+# MongoDB data directory (volume-mounted runtime data, not source code)
+src/db/
+
+# Python
+src/rest/mydatabase
+src/rest/rest/__pycache__/
+src/rest/**/__pycache__/
+*.pyc
+*.pyo
+
+# React / Node
+src/app/node_modules/
+
+# macOS
+.DS_Store
+
+# tmp dir
+src/tmp/
